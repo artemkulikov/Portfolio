@@ -460,7 +460,7 @@ body {
 .header-img {
     height: 550px;
     width: 944px;
-    background-image: url(img/2021-02-21-114230159.jpg);
+    background-image: url(/img/2021-02-21-114230159.jpg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
