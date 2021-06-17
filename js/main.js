@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 
 $(document).ready(function () {
-    $(window).on("scroll", function () {
-        $(window).scrollTop() ? ($('.header-nav').addClass('whiteBG'), $('.header-nav').removeClass('container')) : ($('.header-nav').removeClass('whiteBG'), $('.header-nav').addClass("container"))
+    $(window).on('scroll', function () {
+        $(window).scrollTop() ? ($('.header-nav').addClass('whiteBG'), $('.header-nav').removeClass('container')) : ($('.header-nav').removeClass('whiteBG'), $('.header-nav').addClass('container'))
     })
 });
