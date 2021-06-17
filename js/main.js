@@ -1,6 +1,13 @@
 $(".header-btn").on("click", function (e) {
     $(this).toggleClass("on"), e.preventDefault(), $(".header-nav").toggleClass("active"), $(".header-nav").toggleClass("block"), $("body").toggleClass("locked"), $(".header-desc ul").toggleClass("blockUL")
 });
+
+$(document).ready(function() {
+	$('.go_to').click(function() {
+		$('.header-nav').removeClass('active'), $('.header-btn').removeClass("on"), $('.header-nav').removeClass('block'), $("body").removeClass("locked"), $(".header-desc ul").removeClass("blockUL");
+	});
+});
+
 $(document).ready(function () {
     $(".go_to").click(function (t) {
         t.preventDefault();
