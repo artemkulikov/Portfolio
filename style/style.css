@@ -684,7 +684,8 @@ body {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    padding: 0 15px;
 }
 
 .portfolio_item img {
@@ -780,12 +781,14 @@ body {
     margin-top: 50px;
 }
 
-.footer_social-links a img{
+.footer_social-links a svg {
     width: 50px;
+    height: 50px;
 }
 
 @media (max-width: 365px) {
     .footer_social-links {
-        width: 100%
+        width: 100%;
+        padding: 0 10px;
     }
 }
